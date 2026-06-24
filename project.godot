@@ -27,9 +27,11 @@ enabled=PackedStringArray("res://addons/terrain_3d/plugin.cfg")
 [physics]
 
 3d/physics_engine="Rapier3D"
+common/physics_interpolation=true
 rapier/solver/preset=1
 rapier/solver/num_internal_pgs_iterations=4
 rapier/solver/num_internal_stabilization_iterations=4
+rapier/solver/num_iterations=8
 rapier/solver/contact_damping_ratio=20.0
 rapier/solver/contact_natural_frequency=50.0
 
